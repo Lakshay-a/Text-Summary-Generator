@@ -7,6 +7,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
+# Explaination of ensure_annotations and ConfigBox can be found in the research folder in trials.ipynb file.
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """
