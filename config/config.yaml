@@ -1,7 +1,7 @@
 artifacts_root: artifacts
 
 data_ingestion:
-  root_dir: data_ingestion
-  source_URL: https://www.kaggle.com/datasets/lakshayarora161/summariser-data
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Lakshay-a/Text-Summary-Generator/raw/refs/heads/main/summarizer-data.zip
   local_data_file: artifacts/data_ingestion/data.zip    # download the data as data.zip
   unzip_dir: artifacts/data_ingestion
