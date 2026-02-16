@@ -1,7 +1,7 @@
 import os
 from textSummaryGenerator.logging import logger
 from transformers import AutoTokenizer
-from datasets import load_dataset, load_from_disk
+from datasets import load_from_disk
 from textSummaryGenerator.entity import DataTransformationConfig
 
 class DataTransformation:
@@ -14,7 +14,7 @@ class DataTransformation:
     def convert_examples_to_features(self, example_batch):
 
         model_inputs = self.tokenizer(
-            example_batch["dialogue"],
+            ["summarize: " + dialogue for dialogue in example_batch["dialogue"]],
             max_length=1024,
             truncation=True,
             padding="max_length"   # important for batching

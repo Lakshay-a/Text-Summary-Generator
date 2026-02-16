@@ -2,10 +2,17 @@ import os
 from box.exceptions import BoxValueError
 import yaml
 from textSummaryGenerator.logging import logger
-from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
+
+try:
+    from ensure import ensure_annotations
+except Exception:
+    # ensure==1.0.2 is not compatible with Python 3.12+.
+    # Fallback keeps runtime behavior while skipping annotation enforcement.
+    def ensure_annotations(func):
+        return func
 
 # Explaination of ensure_annotations and ConfigBox can be found in the research folder in trials.ipynb file.
 @ensure_annotations
@@ -59,5 +66,4 @@ def get_size(path: Path) -> str:
     """
     size_in_kb = round(os.path.getsize(path)/1024)
     return f"~ {size_in_kb} KB"
-
 
