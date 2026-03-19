@@ -98,15 +98,17 @@ http://localhost:5000
 **Input:**
 
 ```id="input2"
-Artificial Intelligence is transforming industries by automating processes,
-improving efficiency, and enabling data-driven decision making.
+Artificial Intelligence is transforming industries by automating repetitive tasks, improving efficiency, and enabling data-driven decision-making. From healthcare to finance, AI systems are helping organizations analyze large volumes of data, identify patterns, and make more accurate predictions. However, challenges such as ethical concerns, data privacy, and bias in algorithms remain significant barriers to widespread adoption.
 ```
 
 **Output:**
 
 ```id="output2"
-AI is transforming industries through automation and data-driven efficiency.
+AI systems are helping organizations analyze large volumes of data, identify patterns, and make more accurate predictions. challenges such as ethical concerns, data privacy, bias in algorithms remain significant barriers to widespread adoption.
 ```
+
+<img width="1500" height="862" alt="image" src="https://github.com/user-attachments/assets/d9936448-1556-4ed1-870e-ea8dd144ad82" />
+
 
 ---
 
