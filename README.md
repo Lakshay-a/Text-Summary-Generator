@@ -17,7 +17,8 @@ Users can input long text (articles, notes, or documents), and the system genera
 
 ## Demo (Local UI)
 
-<img width="1500" height="862" alt="image" src="https://github.com/user-attachments/assets/f999d0ad-4b08-4f35-aa49-5b9debdd1982" />
+<img width="1500" height="862" alt="image" src="https://github.com/user-attachments/assets/bdc02193-003d-427b-b712-11ee9dc8c7f4" />
+
 
 
 > The application allows users to input text and instantly generate summaries using the trained NLP pipeline.
